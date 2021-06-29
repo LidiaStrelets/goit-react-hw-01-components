@@ -5,7 +5,7 @@ import defaultPic from './../../data/default.jpg';
 const Friend = ({ avatar, name, isOnline }) => (
   <>
     <span className="status">{isOnline}</span>
-    <img className="avatar" src={avatar} alt={`${name} photo`} width="48" />
+    <img className="avatar" src={avatar} alt={name} width="48" />
     <p className="name">{name}</p>
   </>
 );
