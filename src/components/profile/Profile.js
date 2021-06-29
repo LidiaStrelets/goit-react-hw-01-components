@@ -30,7 +30,7 @@ const Profile = ({ name, tag, location, avatar, stats }) => (
 Profile.defaultProps = {
   avatar: defaultPic,
 };
-Profile.prototype = {
+Profile.propTypes = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
