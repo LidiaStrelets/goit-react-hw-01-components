@@ -1,0 +1,31 @@
+.table {
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  background-color: #fff;
+  color: #847c8d;
+  box-shadow: 8px 8px 5px -5px #4e4a52;
+  border-radius: 5px;
+
+  border-collapse: collapse;
+}
+.head {
+  background-color: rgba(6, 192, 224, 0.699);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.name {
+  padding: 10px 50px;
+
+  border: 1px solid #efe9f5;
+}
+.body {
+  text-align: center;
+}
+.tableRow:nth-child(2n) {
+  background-color: #ebe5f1;
+}

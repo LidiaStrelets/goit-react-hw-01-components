@@ -1,0 +1,9 @@
+.tableItem {
+  padding: 10px 50px;
+
+  border: 1px solid #efe9f5;
+}
+.type {
+  composes: tableItem;
+  text-transform: capitalize;
+}
